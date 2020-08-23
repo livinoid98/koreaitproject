@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/style/common.css" type="text/css"/>
+    <title>Vue.js Sample</title>
+</head>
+<body>
+    <!--{{}} data와 연결 connection MVVM pattern -->
+    <!--MVVM UI 사용, 프레임워크가 로딩되기 전까지 시간차 존재:느리다-->
+    <div id="app">
+        <p>장바구니 : {{cartList.length}}개의 상품이 담겼습니다.</p>
+        <product :premium="premium" @add-cart="onAddCart"></product>
+    </div>
+
+    <script type="text/javascript" src="https://unpkg.com/vue@2.5.16/dist/vue.js"></script>
+    <script type="text/javascript" src="assets/common.js"></script>
+</body>
+</html>

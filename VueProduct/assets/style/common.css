@@ -1,0 +1,199 @@
+@charset "utf-8";
+
+*{
+    box-sizing:border-box;
+}
+
+html,body{
+    margin:0;
+    padding:0;
+    font-size:16px;
+    font-weight: normal;
+    font-style:normal;
+    color:#333;
+}
+
+h1,h2,h3,h4,h5,h6, div, p, span, li, ol, ul, dl, dt, dd, table, form, input, label, fieldset, legend,caption, th, td, tr, tbody,thead,tfoot, figure, center, header, article, section, aside, nav, footer, img, video, b, i, em, audio, iframe, a, s, sub, sup, hr, main, u, mark, kbd{
+    margin:0;
+    padding:0;
+    line-height:1;
+    font-size:100%;
+    font-weight:normal;
+    font-style:inherit;
+    color:inherit;
+}
+
+a{
+    text-decoration:none;
+}
+
+ol, ul{
+    list-style:none;
+}
+
+table{
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+header, section, article, aside, nav, footer{
+    display:block;
+}
+
+#app{
+    padding:40px 0px;
+}
+
+.product-box{
+    display:flex;
+    max-width:1280px;
+    margin: 0 auto;
+}
+
+.product-box>div{
+    flex:1;
+}
+
+.product-box .image-box{
+    text-align:center;
+}
+
+.product-box .image-box img{
+    width:300px;
+    border:1px solid #999;
+    padding:20px;
+}
+
+.product-box .product-info h1{
+    font-size:30px;
+}
+
+.product-box .product-info p{
+    margin-top:30px;
+    font-size:20px;
+}
+
+.product-box .product-info ul{
+    margin-top:30px;
+}
+
+.product-box .product-info ul li:not(:last-child){
+    margin-bottom:15px;
+}
+
+.product-box .product-info ul li:before{
+    content:'-';
+}
+
+.product-box .product-info .color-box{
+    margin-top:30px;
+    display:flex;
+}
+
+.product-box .product-info .color-box>div{
+    width:50px;
+    height:50px;
+}
+
+.product-box .product-info .color-box>div:not(:last-child){
+    margin-right:5px;
+}@charset "utf-8";
+
+*{
+    box-sizing:border-box;
+}
+
+html,body{
+    margin:0;
+    padding:0;
+    font-size:16px;
+    font-weight: normal;
+    font-style:normal;
+    color:#333;
+}
+
+h1,h2,h3,h4,h5,h6, div, p, span, li, ol, ul, dl, dt, dd, table, form, input, label, fieldset, legend,caption, th, td, tr, tbody,thead,tfoot, figure, center, header, article, section, aside, nav, footer, img, video, b, i, em, audio, iframe, a, s, sub, sup, hr, main, u, mark, kbd{
+    margin:0;
+    padding:0;
+    line-height:1;
+    font-size:100%;
+    font-weight:normal;
+    font-style:inherit;
+    color:inherit;
+}
+
+a{
+    text-decoration:none;
+}
+
+ol, ul{
+    list-style:none;
+}
+
+table{
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+header, section, article, aside, nav, footer{
+    display:block;
+}
+
+#app{
+    padding:40px 0px;
+}
+
+.product-box{
+    display:flex;
+    max-width:1280px;
+    margin: 0 auto;
+}
+
+.product-box>div{
+    flex:1;
+}
+
+.product-box .image-box{
+    text-align:center;
+}
+
+.product-box .image-box img{
+    width:300px;
+    border:1px solid #999;
+    padding:20px;
+}
+
+.product-box .product-info h1{
+    font-size:30px;
+}
+
+.product-box .product-info p{
+    margin-top:30px;
+    font-size:20px;
+}
+
+.product-box .product-info ul{
+    margin-top:30px;
+}
+
+.product-box .product-info ul li:not(:last-child){
+    margin-bottom:15px;
+}
+
+.product-box .product-info ul li:before{
+    content:'-';
+}
+
+.product-box .product-info .color-box{
+    margin-top:30px;
+    display:flex;
+}
+
+.product-box .product-info .color-box>div{
+    width:50px;
+    height:50px;
+}
+
+.product-box .product-info .color-box>div:not(:last-child){
+    margin-right:5px;
+}

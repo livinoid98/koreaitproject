@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        <%
+            var i=0;
+            var n=10;
+
+            for(i=0;i<n;i++){
+                var star="";
+                for(var j=0;j<i;j++){
+                    star += "* ";
+                }%>
+            <%= star %><br/>
+        <% } %>
+    </h1>
+</body>
+</html>
